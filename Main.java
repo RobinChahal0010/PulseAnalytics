@@ -59,7 +59,7 @@ public class Main {
         System.out.println("Data Added Successfully!");
     }
 
-    // CREATE FREQUENCY MAP
+    
     public static HashMap<String, Integer> buildFrequencyMap() {
 
         HashMap<String, Integer> freq = new HashMap<>();
