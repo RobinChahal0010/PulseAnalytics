@@ -71,7 +71,7 @@ public class Main {
         return freq;
     }
 
-    // SHOW FREQUENCY
+    
     public static void showFrequency() {
 
         HashMap<String, Integer> freq = buildFrequencyMap();
