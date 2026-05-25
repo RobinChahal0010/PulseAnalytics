@@ -49,7 +49,6 @@ public class Main {
         }
     }
 
-    // ADD DATA
     public static void addData(Scanner sc) {
 
         System.out.print("Enter Data: ");
