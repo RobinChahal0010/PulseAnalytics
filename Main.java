@@ -118,7 +118,7 @@ public class Main {
         }
     }
 
-    // SHOW TOP TREND
+    
     public static void showTopTrend() {
 
         HashMap<String, Integer> freq = buildFrequencyMap();
