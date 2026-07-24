@@ -62,7 +62,7 @@ public class Main {
     
     public static HashMap<String, Integer> buildFrequencyMap() {
 
-        HashMap<String, Integer> freq = new HashMap<>();
+        HashMap<String, Integer> freq = new LinkedHashMap<>();
 
         for (String item : data) {
             freq.put(item, freq.getOrDefault(item, 0) + 1);
