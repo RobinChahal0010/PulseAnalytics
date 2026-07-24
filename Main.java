@@ -61,7 +61,7 @@ public class Main {
 
     
     public static HashMap<String, Integer> buildFrequencyMap() {
-
+        // to preserve order 
         HashMap<String, Integer> freq = new LinkedHashMap<>();
 
         for (String item : data) {
