@@ -133,7 +133,7 @@ public class Main {
 
         for(Map.Entry<String,Integer> entry : freq.entrySet()) {
 
-            if (freq.get(key) > max) {
+            if (entry.getValue() == max) {
                 max = freq.get(key);
                 trend = key;
             }
