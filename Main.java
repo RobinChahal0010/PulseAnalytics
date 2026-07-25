@@ -129,7 +129,7 @@ public class Main {
         }
 
         int max = Collections.max(freq.values());
-        String trend = "";
+        System.out.println("\n=== Top Trends ===");
 
         for (String key : freq.keySet()) {
 
