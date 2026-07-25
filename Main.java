@@ -128,7 +128,7 @@ public class Main {
             return;
         }
 
-        int max = 0;
+        int max = Collections.max(freq.values());
         String trend = "";
 
         for (String key : freq.keySet()) {
