@@ -131,7 +131,7 @@ public class Main {
         int max = Collections.max(freq.values());
         System.out.println("\n=== Top Trends ===");
 
-        for (String key : freq.keySet()) {
+        for(Map.Entry<String,Integer> entry : freq.entrySet()) {
 
             if (freq.get(key) > max) {
                 max = freq.get(key);
