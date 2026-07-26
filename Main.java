@@ -85,7 +85,7 @@ public class Main {
         freq.entrySet()
         .stream()
         .sorted((a, b) -> b.getValue().compareTo(a.getValue()))
-
+        .forEach(e ->
 
         
     }
