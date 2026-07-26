@@ -82,6 +82,7 @@ public class Main {
         }
 
         System.out.println("\n=== Frequency Analysis ===");
+        freq.entrySet()
 
         
     }
