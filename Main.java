@@ -84,6 +84,7 @@ public class Main {
         System.out.println("\n=== Frequency Analysis ===");
         freq.entrySet()
         .stream()
+        .sorted((a, b) -> b.getValue(
 
         
     }
