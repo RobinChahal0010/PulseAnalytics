@@ -86,6 +86,8 @@ public class Main {
         .stream()
         .sorted((a, b) -> b.getValue().compareTo(a.getValue()))
         .forEach(e ->
+                 System.out.println(e.getKey() + " -> " + e.getValue())
+    );
 
         
     }
