@@ -83,9 +83,7 @@ public class Main {
 
         System.out.println("\n=== Frequency Analysis ===");
 
-        for (String key : freq.keySet()) {
-            System.out.println(key + " -> " + freq.get(key));
-        }
+        
     }
 
     
