@@ -102,7 +102,7 @@ public class Main {
             return;
         }
 
-        HashMap<Integer, ArrayList<String>> grouped = new HashMap<>();
+        TreeMap<Integer, ArrayList<String>> grouped = new HashMap<>();
 
         for (String key : freq.keySet()) {
 
